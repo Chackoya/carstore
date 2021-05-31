@@ -56,17 +56,16 @@ export default function ProductScreen(props) {
               </li>
               <li>
                 <button className="primary block">Add to Cart</button>
+                <form>
+                  <label>First Name :</label>
+                  <input type="text" id="fName"/>
+                  <label>Last Name :</label>
+                  <input type="text" id="lName"/>
+                  <button type="button" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Call API</button>
+                </form>
               </li>
             </ul>
           </div>
-
-          <form>
-          <label>First Name :</label>
-          <input type="text" id="fName"/>
-          <label>Last Name :</label>
-          <input type="text" id="lName"/>
-          <button type="button" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Call API</button>
-          </form>
 
         </div>
       </div>
