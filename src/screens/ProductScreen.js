@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Rating from '../components/Rating';
 import data from '../data';
-var callAPI = (firstName,lastName)=>{
+const callAPI = (firstName,lastName)=>{
   // instantiate a headers object
   var myHeaders = new Headers();
   // add content type header to object
