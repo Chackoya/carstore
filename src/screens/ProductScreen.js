@@ -88,7 +88,7 @@ export default function ProductScreen(props) {
                   <input type="text" id="lName"/>
                   <label>Email :</label>
                   <input type="text" id="email"/>
-                  <button type="button" onclick={callAPI(document.getElementById('fName').value,document.getElementById('lName').value)}>Call API</button>
+                  <button type="button" >Call API</button>
                 
                 </form>
               </li>
