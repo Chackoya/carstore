@@ -83,12 +83,12 @@ export default function ProductScreen(props) {
                 <button className="primary block">Add to Cart</button>
                 <form>
                   <label>First Name :</label>
-                  <input type="text" id="fName"/>
+                  <input type="text" ref={fName}/>
                   <label>Last Name :</label>
-                  <input type="text" id="lName"/>
+                  <input type="text" ref={lName}/>
                   <label>Email :</label>
-                  <input type="text" id="email"/>
-                  <button type="button" >Call API</button>
+                  <input type="text" ref={email}/>
+                  
                 
                 </form>
               </li>
